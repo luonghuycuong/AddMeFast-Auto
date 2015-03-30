@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Add Me Fast Auto",
+  "description": "Auto Like Facebook on addmefast.com",
+  "version": "1.0",
+  "web_accessible_resources": [
+  	"/js/content-addmefast.js",
+  	"/js/content-facebook.js"
+  ],
+  "content_scripts": [
+    {
+      "matches": [ "http://addmefast.com/free_points/facebook_likes" ],
+      "js": [ "/js/background.js" ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [ "https://www.facebook.com/*" ],
+      "js": [ "/js/background.js" ],
+      "run_at": "document_start"
+    }
+  ]
+}
