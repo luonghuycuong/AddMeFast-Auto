@@ -9,12 +9,9 @@ Auto Like Facebook on http://addmefast.com/ (Extension for Chrome)
 
 ## Quick start
 
-- [Download the latest release](https://github.com/luonghuycuong/AddMeFast-Auto/archive/v1.0.zip).
-- Clone the repo: `git clone https://github.com/luonghuycuong/AddMeFast-Auto.git`.
-
-## Documentation
-
-- [How can I set up Chrome for extension development?](https://developer.chrome.com/extensions/faq#faq-dev-01).
+- [Download the latest release](https://github.com/luonghuycuong/AddMeFast-Auto/archive/v1.0.zip) or clone the repo: `git clone https://github.com/luonghuycuong/AddMeFast-Auto.git`.
+- Install Chrome Extension ([How can I set up Chrome for extension development?](https://developer.chrome.com/extensions/faq#faq-dev-01)).
+- Go to [http://addmefast.com/free_points/facebook_likes](http://addmefast.com/free_points/facebook_likes).
 
 ### License
 
